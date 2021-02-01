@@ -9,7 +9,7 @@ public class GetScreenSize {
         Toolkit tk = Toolkit.getDefaultToolkit();
         int xSize = ((int) tk.getScreenSize().getWidth());
         int ySize = ((int) tk.getScreenSize().getHeight());
-        System.out.println(xSize+" x "+ySize);
+        System.out.println("Your Screen size is " +xSize+" x "+ySize); 
     }
     
 }
